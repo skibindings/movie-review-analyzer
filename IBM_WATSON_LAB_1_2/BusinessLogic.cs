@@ -269,7 +269,7 @@ namespace IBM_WATSON_LAB_1_2
             System.Windows.Forms.Label sent)
         {
             var result = naturalLanguageUnderstanding.Analyze(
-            url: letterboxd_url + "reviews/page/1",
+            url: letterboxd_url + "reviews/by/activity/",
             features: new Features()
             {
                 Emotion = new EmotionOptions()
